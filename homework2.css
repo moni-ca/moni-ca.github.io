@@ -1,0 +1,26 @@
+body {background: yellow;}
+
+a:link {color: red;}
+
+a:visited {color: blue}
+
+h1 {text-align: center; color: red;}
+
+p::first-letter {font-size: 40px; font-weight: bold; font-style: italic;}
+
+h2 {text-align: right; color: blue; font-style: italic;}
+
+h2:nth-child(3) {font-size: 60px;}
+
+h3 {font-size: 18px; text-align: right; color: red;}
+
+table {background-color: cyan; border-spacing: 5px; animation-name: tablechange; animation-duration: 5s; animation-iteration-count: 2s; animation-fill-mode: forwards}
+
+th, td {padding: 10px;}
+
+table tr td:first-child {font-weight: bold; text-align: center;}
+
+@keyframes tablechange
+{
+from {background: cyan; color: black;}
+to {background: green; color: white;}
